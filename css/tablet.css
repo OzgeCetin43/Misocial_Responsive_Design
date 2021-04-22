@@ -1,0 +1,27 @@
+#header .navbar .navbar-top .navigation-links .navigation-link {
+    margin-right: 20px;
+}
+
+#header .navbar .navbar-top .navigation-links .navigation-link a {
+    font-size: 12px;
+}
+
+#header .header-info {
+    width: 80%;
+}
+
+@media(max-width: 540px) {
+    #header .header-info {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .title-design .line {
+        position: relative;
+        left: 60px;
+    }
+    
+    .title-design .small-title{
+        margin: auto;
+    }
+}
