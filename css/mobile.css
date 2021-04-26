@@ -41,6 +41,46 @@
     text-align: center;
 }
 
+.features {
+    padding: 60px 25px;
+}
+
+.features .title-design .line:last-child {
+    left: -25px;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.features .feature-items .feature-item {
+    width: 100%;
+    padding: 0;
+}
+
+.features .slider {
+    top: 150px;
+}
+
+.features .down-arrow {
+    top: 135px;
+    padding: 10px;
+}
+
+.testimonials {
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 10px 50px;
+}
+
+.testimonials .testimonials-info {
+    width: 100%;
+}
+
+.testimonials img {
+    margin-bottom: 0;
+    margin-top: 50px;
+    width: 100%;
+}
+
 @media(max-width: 320px) {
     .small-title {
         font-size: 10px;
@@ -78,10 +118,38 @@
     .title-design .line {
         position: relative;
     }
+
+    .features {
+        padding: 60px 10px;
+    }
+
+    .features .title-design .line:last-child {
+        left: -25px;
+        margin-left: 15px;
+    }
+
+    .features .slider i {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 280px) {
+    .features .title-design .line:first-child {
+        left: 10px;
+    }
+
+    .features .title-design .line:last-child {
+        left: -10px;
+    }
 }
 
 
 @media(max-width: 240px) {
+    .title {
+        font-size: 30px;
+    }
+
     #header {
         padding: 1px;
     }
@@ -106,5 +174,25 @@
 
     .title-design .line {
         left: 20px;
+    }
+
+    .features .title-design .line:first-child {
+        left: 0px;
+    }
+
+    .features .title-design .line:last-child {
+        left: 0px;
+    }
+
+    .features .feature-items .feature-item i {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .features .feature-items .feature-item .feature-item-info {
+        width: 90%;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 12px;
     }
 }

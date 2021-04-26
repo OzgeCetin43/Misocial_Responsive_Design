@@ -10,6 +10,16 @@
     width: 80%;
 }
 
+.features .slider {
+    top: 130px;
+}
+
+
+.features .down-arrow {
+    top: 115px;
+    padding: 10px;
+}
+
 @media(max-width: 540px) {
     #header .header-info {
         width: 90%;
@@ -23,5 +33,9 @@
     
     .title-design .small-title{
         margin: auto;
+    }
+
+    .features .title-design .line:last-child {
+        left: -60px;
     }
 }
