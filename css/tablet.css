@@ -14,11 +14,14 @@
     top: 130px;
 }
 
-
 .features .down-arrow {
     top: 115px;
     padding: 10px;
 }
+
+.our-team .teams .team {
+    width: 50%;
+} 
 
 @media(max-width: 540px) {
     #header .header-info {
@@ -36,6 +39,10 @@
     }
 
     .features .title-design .line:last-child {
+        left: -60px;
+    }
+
+    .our-team .title-design .line:last-child {
         left: -60px;
     }
 }
