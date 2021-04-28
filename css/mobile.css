@@ -179,6 +179,10 @@
     .recent-articles .articles article:nth-child(2) img {
         width: 0;
     }
+
+    footer .footer-info ul li {
+        margin-right: 5px;
+    }
 }
 
 @media(max-width: 280px) {
@@ -196,6 +200,18 @@
 
     .our-team .title-design .line:last-child {
         left: -10px;
+    }
+
+    footer {
+        padding: 8px;
+    }
+
+    footer .footer-info img{
+        width: 90%;
+    }
+
+    footer .footer-info ul {
+        font-size: 5px;
     }
 }
 
@@ -256,5 +272,10 @@
 
     .our-team .title-design .line:last-child {
         left: 0px;
+    }
+
+    .recent-articles .articles article .article-info small {
+        margin-left: 5px;
+        font-size: 10px;
     }
 }
